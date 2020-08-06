@@ -36,6 +36,7 @@ body.dark {
   --secondary-color: #66578d;
   --background: #0A041A;
   --text-color: rgba(255,255,255,0.88);
+  --text-stroke: black;
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
   --card-bg: #181326;
@@ -229,9 +230,17 @@ a {
     opacity: 0;
   }
   > a img {
+    // display: block;
+    // object-fit: cover;
+    // width: 100%;
+    // object-position: center;
+  }
+  .post-link-img {
+    // border: pink 1px solid;
     display: block;
     object-fit: cover;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     object-position: center;
   }
   > header {
@@ -260,6 +269,7 @@ a {
   }
   .post-link {
     color: var(--text-color);
+    text-shadow: 1px 1px 0 var(--text-stroke);
     text-decoration: none;
   }
 }
