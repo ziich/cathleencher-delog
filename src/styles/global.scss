@@ -169,7 +169,6 @@ a {
     text-align: center;
     margin: 0 0 0.5rem;
     line-height: 1.3;
-    font-weight: 800;
     font-size: 2rem;
   }
   .post-meta {
@@ -247,7 +246,7 @@ a {
     display: block;
     object-fit: cover;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 100%; 
     object-position: center;
   }
   > header {
@@ -259,6 +258,7 @@ a {
   .post-title {
     font-size: 1.3rem;
     margin: 0 1rem;
+    font-weight: 800;
     // margin-bottom: 0.3rem;
   }
   .post-meta {
