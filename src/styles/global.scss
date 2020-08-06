@@ -27,6 +27,8 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
+  --filter-color: rgba(255,255,255,0.2);
+  // --text-stroke: rgba(255,255,255,0.75);
 }
 body.dark {
   --primary-color: #9984d5;
@@ -36,7 +38,7 @@ body.dark {
   --secondary-color: #66578d;
   --background: #0A041A;
   --text-color: rgba(255,255,255,0.88);
-  --text-stroke: black;
+  // --text-stroke: rgba(0,0,0,0.75);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
   --card-bg: #181326;
@@ -50,6 +52,7 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
+  --filter-color: rgba(0,0,0,0.2);
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -166,6 +169,7 @@ a {
     text-align: center;
     margin: 0 0 0.5rem;
     line-height: 1.3;
+    font-weight: 800;
     font-size: 2rem;
   }
   .post-meta {
@@ -226,9 +230,12 @@ a {
   overflow: hidden;
   line-height: 1.5;
   &:hover .post-link {
-    color: var(--primary-color);
+    // color: var(--primary-color);
     opacity: 0;
-  }
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    }
   > a img {
     // display: block;
     // object-fit: cover;
@@ -250,8 +257,9 @@ a {
     margin: 0 0 0.5rem 0;
   }
   .post-title {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    // margin-bottom: 0.3rem;
   }
   .post-meta {
     font-weight: 100;
@@ -259,6 +267,7 @@ a {
   }
   .post-title-container {
     position: absolute;
+    background-color: var(--filter-color);
     display: flex;
     height: 100%;
     width: 100%;
@@ -269,8 +278,12 @@ a {
   }
   .post-link {
     color: var(--text-color);
-    text-shadow: 1px 1px 0 var(--text-stroke);
+    // text-shadow: 0px 0px 3px white;
     text-decoration: none;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
   }
 }
 .post-meta {
@@ -364,6 +377,7 @@ body.light {
 }
 // CSS.gg icons for sun and moon
 .gg-sun {
+  color: rgba(255,255,255,0.88);
   box-sizing: border-box;
   position: relative;
   display: block;
