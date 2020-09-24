@@ -50,6 +50,9 @@ export const pageQuery = graphql`
             path
             title
             thumbnail
+            role
+            type
+            featured
           }
         }
       }
