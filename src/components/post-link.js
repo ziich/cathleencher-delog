@@ -9,8 +9,8 @@ const PostLink = ({ post }) => (
           <h2 className="post-title">
             {post.frontmatter.title}
           </h2>
-          <div className="post-role">{post.frontmatter.role}</div>
-          <div className="post-type">{post.frontmatter.type}</div>
+          <div className="post-sub">{post.frontmatter.role}</div>
+          <div className="post-sub">{post.frontmatter.type}</div>
           
     </div>
   </Link>

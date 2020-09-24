@@ -10,15 +10,15 @@ body {
 }
 body.light {
   --primary-color: #AA277D;
-  --primary-text-color: #A06F7D;
+  --primary-text-color: #10072b;
   --featured-bg: #A06F7D;
   --featured-text: #fff;
   --secondary-color: #10072b;
-  --background: #fff;
+  --background: #eee;
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
-  --card-shadow: rgba(200 200 200 / 33%);
+  --card-shadow: rgba(64 64 64 / 33%);
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
@@ -175,6 +175,7 @@ a {
     margin-bottom: 32px;
     text-align: center;
   }
+
   
 }
 .post-thumbnail {
@@ -277,6 +278,10 @@ a {
     justify-content: center;
     text-align: center;
     z-index: 100;
+
+    .post-sub{
+      font-weight: 700;
+    }
   }
   .post-link {
     color: var(--text-color);

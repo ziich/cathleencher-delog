@@ -21,16 +21,16 @@ export default function Template({
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
-              <h3 className="post-meta">{frontmatter.type}</h3>
-              <h2 className="post-meta">{frontmatter.role}</h2>
+              <h3 className="post-sub">{frontmatter.type}</h3>
+              <h3 className="post-sub">{frontmatter.role}</h3>
             </div>
           )}
 
           {!!frontmatter.thumbnail && (
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
               <h1 className="post-title">{frontmatter.title}</h1>
-              <h3 className="post-meta">{frontmatter.type}</h3>
-              <h2 className="post-meta">{frontmatter.role}</h2>
+              <h3 className="post-sub">{frontmatter.type}</h3>
+              <h3 className="post-sub">{frontmatter.role}</h3>
             </div>
           )}
           <div
