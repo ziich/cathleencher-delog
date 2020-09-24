@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /Calvin-Harris-Tour-Visuals
-date: 2020-09-24T10:58:27.732Z
+date: 2020-09-24T10:59:32.209Z
 title: Calvin Harris - Tour Visuals 2019
 type: Live
 role: Producer
