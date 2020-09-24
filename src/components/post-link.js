@@ -10,7 +10,7 @@ const PostLink = ({ post }) => (
             {post.frontmatter.title}
           </h2>
           <div className="post-sub">{post.frontmatter.role}</div>
-          <div className="post-sub">{post.frontmatter.type}</div>
+          <div className="italic">{post.frontmatter.type}</div>
           
     </div>
   </Link>
