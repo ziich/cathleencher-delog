@@ -9,8 +9,8 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #A06F7D;
-  --primary-text-color: #AA277D;
+  --primary-color: #AA277D;
+  --primary-text-color: #A06F7D;
   --featured-bg: #A06F7D;
   --featured-text: #fff;
   --secondary-color: #10072b;
@@ -18,7 +18,7 @@ body.light {
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
-  --card-shadow: rgba(179 179 179 / 30%);
+  --card-shadow: rgba(200 200 200 / 33%);
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
