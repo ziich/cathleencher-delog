@@ -1,3 +1,4 @@
+---
 template: BlogPost
 path: /newpost
 date: 2020-08-04T04:15:21.250Z
