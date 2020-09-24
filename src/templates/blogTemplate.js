@@ -57,7 +57,6 @@ export const pageQuery = graphql`
         path
         title
         thumbnail
-        metaDescription
         type
         role
       }
