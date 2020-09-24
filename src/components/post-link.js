@@ -7,18 +7,21 @@ const PostLink = ({ post }) => (
 
     <div className="post-title-container">
           <h2 className="post-title">
-          {post.frontmatter.title}
+            {post.frontmatter.title}
+            {post.frontmatter.role}
+            {post.frontmatter.type}
 
-      </h2>
+          </h2>
     </div>
   </Link>
+
       {!!post.frontmatter.thumbnail && (
         <img className="post-link-img" src={post.frontmatter.thumbnail} alt={post.frontmatter.title + "- Featured Shot"} />
       )}
-    {/* <header> */}
+    {/* <header>
 
-      {/* <div className="post-meta">{post.frontmatter.date}</div> */}
-    {/* </header> */}
+      <div className="post-meta">{post.frontmatter.date}</div>
+    </header> */}
   </article>
 )
 export default PostLink

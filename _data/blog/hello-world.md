@@ -3,6 +3,8 @@ template: BlogPost
 path: /hello-world
 date: 2020-02-20T07:08:53.137Z
 title: Hello World
+role: me
+type: testing type
 metaDescription: Meta description for Hello World
 thumbnail: /assets/ccbw.jpg
 ---

@@ -22,6 +22,8 @@ export default function Template({
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
+              <div className="post-meta">{frontmatter.type}</div>
+              <div className="post-meta">{frontmatter.role}</div>
             </div>
           )}
 
@@ -29,6 +31,8 @@ export default function Template({
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
+              <div className="post-meta">{frontmatter.type}</div>
+              <div className="post-meta">{frontmatter.role}</div>
             </div>
           )}
           <div
@@ -54,10 +58,10 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
-        tags
-        role
         thumbnail
         metaDescription
+        type
+        role
       }
     }
   }
