@@ -13,10 +13,6 @@ FKA TWIGS - We Are The WMXN
 
 Producer
 
-[https://wepresent.wetransfer.​com/story/fka-twigs-we-are-​the-womxn/](<FKA TWIGS - We Are The WMXN
-Producer
-https://wepresent.wetransfer.com/story/fka-twigs-we-are-the-womxn/>)
+<https://wepresent.wetransfer.com/story/fka-twigs-we-are-the-womxn>
 
-[](<FKA TWIGS - We Are The WMXN
-Producer
-https://wepresent.wetransfer.com/story/fka-twigs-we-are-the-womxn/>)<!--EndFragment-->
+[](https://wepresent.wetransfer.com/story/fka-twigs-we-are-the-womxn)<!--EndFragment-->
