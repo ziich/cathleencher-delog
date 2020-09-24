@@ -269,6 +269,7 @@ a {
     position: absolute;
     background-color: var(--filter-color);
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     align-items: center;
