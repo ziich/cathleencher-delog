@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /Kanye-West-Yeezus-Tour
-date: 2020-09-24T10:45:37.125Z
+date: 2020-09-24T12:45:00.000Z
 title: Kanye West - MBDTF / Yeezus Tours
 type: Live
 role: Art Production Manager
