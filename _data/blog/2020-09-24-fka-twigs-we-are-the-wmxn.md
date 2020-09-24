@@ -5,7 +5,7 @@ date: 2020-09-24T11:18:05.027Z
 title: FKA TWIGS - We Are The WMXN
 type: Event
 role: Producer
-thumbnail: /assets/fka (Custom).png
+thumbnail: /assets/fka-(Custom).jpg
 ---
 <!--StartFragment-->
 
