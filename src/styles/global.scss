@@ -9,16 +9,16 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
-  --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --primary-color: #A06F7D;
+  --primary-text-color: #AA277D;
+  --featured-bg: #A06F7D;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
-  --card-shadow: #d5d5d5;
+  --card-shadow: rgba(179 179 179 / 30%);
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
@@ -31,12 +31,12 @@ body.light {
   // --text-stroke: rgba(255,255,255,0.75);
 }
 body.dark {
-  --primary-color: #9984d5;
-  --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --primary-color: #A06F7D;
+  --primary-text-color:#F9DFDE;
+  --featured-bg: #CFE7C1;
   --featured-text: #fff;
-  --secondary-color: #66578d;
-  --background: #0A041A;
+  --secondary-color: #AA277D;
+  --background: #1C2025;
   --text-color: rgba(255,255,255,0.88);
   // --text-stroke: rgba(0,0,0,0.75);
   --text-secondary-color: rgba(255,255,255,0.66);
@@ -224,7 +224,7 @@ a {
   background-color: var(--card-bg);
   height: 300px;
   // border-radius: 9px;
-  border: 1px solid var(--card-bdr);
+  // border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
   line-height: 1.5;
@@ -256,6 +256,7 @@ a {
     margin: 0 0 0.5rem 0;
   }
   .post-title {
+    color: var(--primary-text-color);
     font-size: 1.3rem;
     margin: 0 1rem;
     font-weight: 800;
@@ -269,6 +270,7 @@ a {
     position: absolute;
     background-color: var(--filter-color);
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     align-items: center;

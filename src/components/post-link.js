@@ -8,10 +8,10 @@ const PostLink = ({ post }) => (
     <div className="post-title-container">
           <h2 className="post-title">
             {post.frontmatter.title}
-            {post.frontmatter.role}
-            {post.frontmatter.type}
-
           </h2>
+          <div className="post-role">{post.frontmatter.role}</div>
+          <div className="post-type">{post.frontmatter.type}</div>
+          
     </div>
   </Link>
 
