@@ -7,12 +7,6 @@ type: Photo
 role: Producer
 thumbnail: /assets/fila1.jpg
 ---
-<!--StartFragment-->
-
 FILA China by Driely S.
 
 Producer
-
-
-
-<!--EndFragment-->
