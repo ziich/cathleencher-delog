@@ -5,8 +5,10 @@ date: 2020-09-24T11:09:54.378Z
 title: FILA China by Driely S.
 type: Photo
 role: Producer
-thumbnail: /assets/fila1.jpg
+thumbnail: /assets/fila1resize.jpg
 ---
 FILA China by Driely S.
 
 Producer
+
+![](/assets/fila1resize.jpg)
