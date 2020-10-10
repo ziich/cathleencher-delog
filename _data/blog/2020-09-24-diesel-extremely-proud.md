@@ -5,7 +5,7 @@ date: 2020-09-24T11:21:37.710Z
 title: DIESEL - Extremely Proud
 type: Event
 role: Executive Producer
-thumbnail: /assets/diesel (Custom).png
+thumbnail: /assets/diesel.jpg
 ---
 <!--StartFragment-->
 
