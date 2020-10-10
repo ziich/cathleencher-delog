@@ -5,7 +5,7 @@ date: 2020-09-24T11:24:04.290Z
 title: HALSEY - TARANTINO NIGHTS
 type: Event
 role: Creative Producer
-thumbnail: /assets/halsey (Custom).png
+thumbnail: /assets/halsey.jpg
 ---
 <!--StartFragment-->
 
