@@ -3,7 +3,8 @@ import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 export default () => (
   <ThemeToggler>
-    {({ theme, toggleTheme }) => (
+    {({ theme = 'dark', toggleTheme }) => (
+      
       <label>
         <input
           type="checkbox"
